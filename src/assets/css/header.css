@@ -1,0 +1,19 @@
+.header-bg {
+    height: 226px;
+    background: url('../images/BG.svg');
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {font-family: Ubuntu;
+    font-size: 42px;
+  
+    background: linear-gradient(to right, #ff5a56, #ff9a42);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    margin-bottom: 21px;
+}

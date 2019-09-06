@@ -1,0 +1,27 @@
+.search-box {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+}
+
+.search-box input {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background: transparent;
+    color: #ffffff;
+    padding: 14px 0 14px 14px;
+    width: 85%;
+    border: none;
+    outline: none;
+}
+
+.search-box input::placeholder {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    font-style: light;
+}

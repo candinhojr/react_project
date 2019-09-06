@@ -8,7 +8,7 @@ export default class Home extends Component {
         return (
             <>
                 <Header />
-                <main>
+                <main className="main-content">
                     <Movies />
                     <Characters />
                 </main>

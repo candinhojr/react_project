@@ -1,11 +1,12 @@
 import React from 'react';
+import { Search } from './Search';
 
-export const Header = () => {
+export function Header() {
     return (
-        <header>
-            <h1>Star Wars Movies</h1>
+        <header className="header-bg">
+            <h1 className="header-title">Star Wars Movies</h1>
             <nav className="search">
-                <h2> search component </h2>
+                <Search/>
             </nav>
         </header>
     )

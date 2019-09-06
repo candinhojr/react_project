@@ -1,10 +1,15 @@
 /*import fonts*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+/*import CSS components*/
+@import "header.css";
+@import "search.css";
+@import "home.css";
+
+
 body {
     margin: 0;
     padding: 0;
     background: #E5E5E5;
-    font-family: Ubuntu;
   }
   
